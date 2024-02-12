@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/js/bootstrap.js">
+</head>
+<style>
+    th,td{
+        border: 1.5px solid;
+    }
+</style>
+<body class="bg-dark">
+    <div class="container-fluid mx-auto shadow-sm col-lg-7 ">
+    <div>
+    <h2 class="fs-3 text-center text-decoration-underline text-light">Mini Mart</h2>
+    <input type="text" class="form-control " id="inp">
+   </div>
+   <button class="btn btn-outline-danger form-control my-3 shadow-none" onclick="add()">Add fvorite items</button>
+   <div class="alert alert-danger fs-5 my-2 text-center" style="display: none;" id="hello">Input an item </div>
+    </div>
+    <div class="container-fluid mx-auto shadow-sm col-lg-7 text-light" id="call" style="display: none;" >
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col" style="background-color:gray;" class="col-1">S/N</th>
+            <th scope="col" style="background-color: gray;" class="col-6">Items</th>
+            <!-- <th scope="col">Last</th> -->
+            <th scope="col" style="background-color:gray;" class="col-5">Action</th>
+          </tr>
+        </thead>
+        <tbody id="show">
+
+        </tbody>
+      </table>
+      </div>
+
+
+
+
+
+    <div class="container-fluid mx-auto shadow-sm col-lg-7 text-center w-100"> 
+
+
+
+
+
+    <!-- <button class="btn btn-danger btn-sm" onclick="addTo()">Add first item </button>
+    <button class="btn btn-outline-danger" onclick="remove()">Remove the first item </button>
+    <button class="btn btn-danger " onclick="any()">Delete any item</button> -->
+    <button class="btn btn-primary" onclick="delAll()"> Delete all</button>
+    <!-- <button class="btn btn-outline-danger" onclick="edit()">Edit</button> -->
+    </div>
+
+    
+
+
+
+
+
+    <script src="pra.js">
+
+    </script>
+</body>
+</html>
